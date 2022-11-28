@@ -18,3 +18,13 @@ variable "external_ip" {
   description = "The public IP address of the admin / terminal server"
   default     = "0.0.0.0/0"
 }
+
+variable "workers-count" {
+  type    = number
+  default = 2
+}
+
+variable "instance-type" {
+  type    = string
+  default = "t3.micro"
+}
