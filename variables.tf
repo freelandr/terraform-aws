@@ -31,10 +31,10 @@ variable "instance-type" {
 
 variable "webserver-port" {
   type    = number
-  default = 80
+  default = 8080
 }
 
 variable "dns-name" {
-  type = string
+  type    = string
   default = "mydomain.info."
 }
