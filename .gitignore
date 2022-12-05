@@ -36,3 +36,6 @@ terraform.rc
 
 # Ignore plan files
 tfplan
+
+# Ignore jenkins auth file
+**/jenkins_auth
